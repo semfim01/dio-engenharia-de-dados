@@ -1,6 +1,7 @@
 import socket
 
-s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) #udp tem que usar o dgram e o tcp usa o stream
+s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) 
+#udp tem que usar o dgram e o tcp usa o stream
 
 print('Cliente Socket Criado com Sucesso!!')
 
