@@ -2,7 +2,7 @@ import random
 import string
 # ou posso colocar uma vírgula e colocar string ....
 
-tamanho = 16
+tamanho = int(input('Digite o tamanho da senha que voce deseja: '))
 
 chars = string.ascii_letters + string.digits + '!@#$%&*()_+-.='
 # gera senhas maiuscúlas e minuscúlas usando o ascii_letters
